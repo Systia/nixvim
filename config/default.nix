@@ -17,4 +17,7 @@
     ./plugins/nvim-cmp.nix
     ./plugins/telescope.nix
   ];
+
+  viAlias = true;
+  vimAlias = true;
 }

@@ -13,5 +13,6 @@
     ./plugins/lsp.nix
     ./plugins/none-ls.nix
     ./plugins/nvim-cmp.nix
+    ./plugins/telescope.nix
   ];
 }

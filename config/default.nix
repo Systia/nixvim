@@ -4,6 +4,8 @@
 
     ./plugins/colorscheme.nix
 
+    ./files/nixft-opts.nix
+
     ./plugins/treesitter.nix
     ./plugins/which-key.nix
     ./plugins/indent-blankline.nix

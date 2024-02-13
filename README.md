@@ -16,21 +16,21 @@ My Neovim config with [NixVim](https://github.com/nix-community/nixvim).
 
 ### Without flakes
 
-Inside the repository
+From the repository
 
 ```
 nix run .
 ```
 
-Or from anywhere
+From anywhere
 
 ```
-nix run 'github:Systia/nixvim'
+nix run github:Systia/nixvim
 ```
 
 ### Using flakes
 
-Add `inputs.nixvim.packages.${system}.default` to the packages.
+Add `inputs.nixvim.packages.${system}.default` to the packages
 
 ```nix
 { inputs, system, ... }:

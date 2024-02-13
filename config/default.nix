@@ -12,5 +12,6 @@
     ./plugins/comment-nvim.nix
     ./plugins/lsp.nix
     ./plugins/none-ls.nix
+    ./plugins/nvim-cmp.nix
   ];
 }

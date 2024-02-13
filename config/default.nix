@@ -10,5 +10,6 @@
     ./plugins/mini.nix
     ./plugins/lualine.nix
     ./plugins/comment-nvim.nix
+    ./plugins/lsp.nix
   ];
 }

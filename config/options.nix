@@ -38,5 +38,7 @@
 
       showmode = false;
     };
+
+    clipboard.register = "unnamedplus";
   };
 }

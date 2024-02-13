@@ -11,5 +11,6 @@
     ./plugins/lualine.nix
     ./plugins/comment-nvim.nix
     ./plugins/lsp.nix
+    ./plugins/none-ls.nix
   ];
 }

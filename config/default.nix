@@ -8,5 +8,6 @@
     ./plugins/which-key.nix
     ./plugins/indent-blankline.nix
     ./plugins/mini.nix
+    ./plugins/lualine.nix
   ];
 }

@@ -6,5 +6,7 @@
 
     ./plugins/treesitter.nix
     ./plugins/which-key.nix
+    ./plugins/indent-blankline.nix
+    ./plugins/mini.nix
   ];
 }

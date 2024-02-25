@@ -15,6 +15,7 @@
     ./plugins/comment-nvim.nix
     ./plugins/lsp.nix
     ./plugins/none-ls.nix
+    ./plugins/luasnip.nix
     ./plugins/nvim-cmp.nix
     ./plugins/telescope.nix
   ];

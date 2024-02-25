@@ -3,6 +3,7 @@
     enable = true;
     sources = [
       { name = "nvim_lsp"; }
+      { name = "luasnip"; }
       { name = "buffer"; }
     ];
     autoEnableSources = true;
@@ -10,6 +11,7 @@
       completion.border = "rounded";
       documentation.border = "rounded";
     };
+    snippet.expand = "luasnip";
     mapping = {
       "<C-Space>" = "cmp.mapping.complete()";
       "<C-d>" = "cmp.mapping.scroll_docs(-4)";
@@ -32,4 +34,5 @@
       };
     };
   };
+
 }

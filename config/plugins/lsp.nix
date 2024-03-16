@@ -3,6 +3,7 @@
     lsp = {
       enable = true;
       servers = {
+        astro.enable = true;
         clangd.enable = true;
         rust-analyzer = {
           enable = true;

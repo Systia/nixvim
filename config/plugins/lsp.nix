@@ -13,6 +13,9 @@
         lua-ls.enable = true;
         nil_ls.enable = true;
         nixd.enable = false;
+        html.enable = true;
+        cssls.enable = true;
+        tsserver.enable = true;
       };
       keymaps = {
         lspBuf = {

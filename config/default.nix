@@ -5,7 +5,7 @@
 
     ./plugins/colorscheme.nix
 
-    ./files/nixft-opts.nix
+    ./ftplugin/nix.nix
 
     ./plugins/treesitter.nix
     ./plugins/which-key.nix

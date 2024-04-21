@@ -3,7 +3,6 @@
     ./options.nix
     ./keymaps.nix
 
-
     ./ftplugin/nix.nix
 
     ./plugins

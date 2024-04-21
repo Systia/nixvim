@@ -15,7 +15,7 @@
       mode = "n";
       key = "<leader>u";
       action = "<cmd>Telescope undo<CR>";
-      options. desc = "Telescope undo tree";
+      options.desc = "Telescope undo tree";
     }
   ];
 }

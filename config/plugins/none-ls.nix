@@ -11,6 +11,7 @@
       };
       formatting = {
         nixfmt.enable = true;
+        prettierd.enable = true;
       };
     };
   };

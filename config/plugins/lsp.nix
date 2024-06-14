@@ -16,6 +16,7 @@
         html.enable = true;
         cssls.enable = true;
         tsserver.enable = true;
+        pyright.enable = true;
       };
       keymaps = {
         lspBuf = {

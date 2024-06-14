@@ -13,7 +13,7 @@
         nixfmt.enable = true;
         prettierd.enable = true;
         isort.enable = true;
-        blackd.enable = true;
+        black.enable = true;
       };
     };
   };

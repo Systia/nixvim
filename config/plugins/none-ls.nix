@@ -1,3 +1,4 @@
+{ pkgs, ... }:
 {
   plugins.none-ls = {
     enable = true;
@@ -10,7 +11,10 @@
         statix.enable = true;
       };
       formatting = {
-        nixfmt.enable = true;
+        nixfmt = {
+          enable = true;
+          package = pkgs.nixfmt-rfc-style;
+        };
         prettierd.enable = true;
         isort.enable = true;
         black.enable = true;

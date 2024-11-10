@@ -8,7 +8,7 @@
     rose-pine = {
       enable = true;
       settings = {
-        enable.transparency = true;
+        styles.transparency = true;
         highlight_groups.NormalFloat = { };
       };
     };

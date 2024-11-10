@@ -11,9 +11,8 @@ in
       hooks = {
         nil.enable = true;
         statix.enable = true;
-        nixfmt = {
+        nixfmt-rfc-style = {
           enable = true;
-          package = pkgs.nixfmt-rfc-style;
         };
       };
     };

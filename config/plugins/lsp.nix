@@ -5,17 +5,17 @@
       servers = {
         astro.enable = true;
         clangd.enable = true;
-        rust-analyzer = {
+        rust_analyzer = {
           enable = true;
           installRustc = true;
           installCargo = true;
         };
-        lua-ls.enable = true;
+        lua_ls.enable = true;
         nil_ls.enable = true;
         nixd.enable = false;
         html.enable = true;
         cssls.enable = true;
-        tsserver.enable = true;
+        ts_ls.enable = true;
         pyright.enable = true;
       };
       keymaps = {

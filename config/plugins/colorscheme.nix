@@ -5,11 +5,17 @@
     #   style = "storm";
     #   transparent = true;
     # };
-    rose-pine = {
+    # rose-pine = {
+    #   enable = true;
+    #   settings = {
+    #     styles.transparency = true;
+    #   };
+    # };
+    onedark = {
       enable = true;
       settings = {
-        styles.transparency = true;
-        highlight_groups.NormalFloat = { };
+        transparent = true;
+        ending_tildes = true;
       };
     };
   };
